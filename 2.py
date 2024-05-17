@@ -15,7 +15,7 @@ plt.rcParams['font.sans-serif'] = ['SimHei']  # 设置中文字体为黑体
 plt.rcParams['axes.unicode_minus'] = False  # 用来正常显示负号
 
 # 读取CSV文件
-df = pd.read_csv('msg.csv')
+df = pd.read_csv('msg.zip')
 dfs = [df.query("IsSender == 0"), df.query("IsSender == 1")]
 # TODO 数据预处理（根据需求进行）
 # 只保留文本聊天
